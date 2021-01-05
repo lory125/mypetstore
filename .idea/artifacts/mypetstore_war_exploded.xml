@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mypetstore:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/mypetstore_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="mypetstore/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mypetstore" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Java EE 6-Java EE 6" />
+          <element id="library" level="project" name="mysql-connector-java-5.1.47" />
+          <element id="library" level="application_server_libraries" name="Tomcat 10.0.0-M9" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
